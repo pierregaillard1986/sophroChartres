@@ -1,19 +1,8 @@
- - faire l'onglet tarifs (background opacité baisser derriere les textes + bacground de l'onglet à revoir)
- - le background de Contact: changer? mettre une photo du prochain cabinet avec lui dedant (panoramique)?
- - Contour de la photo, ombre ou contour de couleur ?
- - PENSER AUX TAILLES DECRAN !
- - Position google map 
- - Orde des onglets ?
+@tmosphère
+pas "association @tmosphère" mais juste "@atmosphère"
+tarifs --> adolescents
+trouver un plus jolie @
+carte à mettre dans contact
 
-Si la localisation de Atmosphère est voulu (ou alors juste mettre l'adresse); à mettre au dessus de <div id="Atmosphere">:
-
-  <div class="iframe_position">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2646.8011018676284!2d1.4919437158924354!3d48.441157037946596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e40c4db044644b%3A0xf4be46af22f80c4b!2s20+Rue+Victor+Gilbert%2C+28000+Chartres!5e0!3m2!1sfr!2sfr!4v1551529645205"
-      width="625" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
-  </div>
-
- - Problème sur la sticky bar, décalage quand on passe dessus
- - Problème sur la map qui passe par dessus la navbar
- - Problème sur le titre des onglets: agrandir l'onglet et mettre le texte plus au centre afin que l'espace entre la nav bar et le 
-   titre soit suffisant.
+navbar trop clair dans la police 
+la navbar doit être collée au header
