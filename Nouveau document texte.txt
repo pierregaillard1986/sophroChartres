@@ -1,8 +1,0 @@
-@tmosphère
-pas "association @tmosphère" mais juste "@atmosphère"
-tarifs --> adolescents
-trouver un plus jolie @
-carte à mettre dans contact
-
-navbar trop clair dans la police 
-la navbar doit être collée au header
