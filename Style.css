@@ -13,6 +13,10 @@ a {
   transition: 0.4s;
 }
 
+p {
+  font-size: 20px;
+}
+
 a:hover {
   background-color: #e2e2e2;
 }
@@ -33,5 +37,14 @@ a:hover {
 }
 
 .navabar_margin_top {
-  margin-top: auto !important;
+  margin-top: -8px !important;
+}
+
+.photo {
+  height: 23em !important;
+}
+
+#accueil{
+  background: url(lac.jpg);
+  background-position: center;
 }
