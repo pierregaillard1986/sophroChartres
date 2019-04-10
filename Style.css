@@ -40,11 +40,20 @@ a:hover {
   margin-top: -8px !important;
 }
 
-.photo {
-  height: 23em !important;
+.photo_sophro {
+  width:23em;
+  margin-right: -50px !important;
 }
 
 #accueil{
   background: url(lac.jpg);
   background-position: center;
+}
+
+@media only screen and (max-width: 600px)  {
+  .margin-responsive {
+    margin-left: -50px;
+    margin-right: -90px;
+    line-height: 120%;
+  }
 }
