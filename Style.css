@@ -45,15 +45,64 @@ a:hover {
   margin-right: -50px !important;
 }
 
+.p_size {
+  font-size: 150%;
+}
+
+.p_size_contact {
+  font-size: 170%;
+}
+
+.margin_bot_ajust {
+  margin-bottom: 5%;
+}
+
+.margin_bot_contact {
+  margin-bottom: -7%;
+}
+
+.padding_top_contact {
+  padding-bottom: -7%;
+}
+
 #accueil{
   background: url(lac.jpg);
   background-position: center;
+  background-size: cover;
+}
+
+#sophrologie{
+  background: url(montagnes.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#coherence_cardiaque {
+  background: url(coherence_cardiaque.jpg);
+  background-size: cover;
+}
+
+#atmosphere {
+  background: url(atmosphere.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#contact {
+  background: url(image_thierry.jpg);
+  background-size: cover;
+  background-position: bottom;
 }
 
 @media only screen and (max-width: 600px)  {
   .margin-responsive {
     margin-left: -50px;
-    margin-right: -90px;
+    margin-right: -110px;
+    margin-bottom: 20%;
     line-height: 120%;
+  }
+  .photo_sophro {
+    width: 150% !important;
+    margin-right: auto;
   }
 }

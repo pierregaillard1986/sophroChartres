@@ -3,7 +3,6 @@
 - tarifs --> adolescents
 - trouver un plus jolie @
 - carte à mettre dans contact
-- navbar trop clair 
-- la navbar doit être collée au header
 - le toggle (version mobile) est à gauche au lieur d'être à droite
 - penser à mettre des h1 au mots importants
+- Comment faire pour que la nav bar soit responsive plus tot
