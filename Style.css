@@ -1,5 +1,6 @@
 body {
   font-family: 'Playfair Display', serif !important;
+  position: relative;
 }
 
 hr {
@@ -11,10 +12,6 @@ a {
   font-size: 22px;
   color: black !important;
   transition: 0.4s;
-}
-
-p {
-  font-size: 20px;
 }
 
 a:hover {
@@ -53,16 +50,8 @@ a:hover {
   font-size: 170%;
 }
 
-.margin_bot_ajust {
-  margin-bottom: 5%;
-}
-
-.margin_bot_contact {
-  margin-bottom: -7%;
-}
-
-.padding_top_contact {
-  padding-bottom: -7%;
+.max_width {
+  max-width: 40%;
 }
 
 #accueil{
@@ -80,6 +69,7 @@ a:hover {
 #coherence_cardiaque {
   background: url(coherence_cardiaque.jpg);
   background-size: cover;
+  background-position: bottom;
 }
 
 #atmosphere {
@@ -91,6 +81,13 @@ a:hover {
 #contact {
   background: url(image_thierry.jpg);
   background-size: cover;
+  background-position: bottom;
+}
+
+#tarifs {
+  background: url(foret.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   background-position: bottom;
 }
 
