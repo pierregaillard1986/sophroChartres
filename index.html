@@ -16,11 +16,11 @@
 </head>
 
 <body>
-  <header class="p-3 mb-2 bg-light text-dark">
+  <header class="p-1 mb-2 bg-light text-dark">
     <h1 class="display-4 blockquote text-center header">Thierry Fond</h1>
     <h1 class="display-4 blockquote text-center header">Sophrologue certifié RNCP et Cohérance Cardiaque</h1>
     <hr noshade>
-    <img class="mx-auto d-block logo_header logo" src="logo fond.jpg" alt="logo">
+    <img class="mx-auto d-block mb-n1 logo" src="logo fond.jpg" alt="logo">
   </header>
 
   <nav class="navbar sticky-top navbar-expand-sm navbar-light bg-light navabar_margin_top">
@@ -40,7 +40,7 @@
     <span class="navbar-text numero">07 89 33 16 35</span>
   </nav>
 
-  <div class="container-fluid">
+  <div class ="container-fluid">
     <div class="row" id="accueil">
       <div class="col-7 ml-5 mt-5">
         <h1 class="margin-responsive">Ma vision de la Sophrologie</h1>
@@ -49,7 +49,7 @@
           propose un parcours personnalisé qui va vous permettre de prendre conscience de vos ressources et de vos capacités à améliorer votre quotidien.</p>
       </div>
       <div class="col-4 mr-5">
-        <img class="img-fluid mx-auto photo_sophro" src="photo.png">
+        <img class="img-fluid mx-auto d-block float-right photo_sophro" alt="Responsive image" src="photo.png">
       </div>
     </div>
   </div>
@@ -58,7 +58,8 @@
     <div class="row" id="sophrologie">
       <div class="col-7 ml-5 mt-5">
         <h1 class="margin-responsive text-white">Champs d'activités</h1>
-        <p class="margin-responsive p_size text-white margin_bot text-justify mb-5">Les séances individuelles de sophrologie se déroulent dans mon cabinet rue Chanzy à Chartres. Leur durée est de 60 minutes. J’interviens aussi en entreprise dans le cadre
+        <p class="margin-responsive p_size text-white margin_bot text-justify mb-5">Les séances individuelles de sophrologie se déroulent dans mon cabinet rue Chanzy à Chartres. Leur durée est de 60 minutes. J’interviens aussi en entreprise dans le
+          cadre
           de séances de groupes, à la demande des Ressources Humaines ou du comité d’établissement. J’interviens en milieu hospitalier, scolaire, associatif, en Ehpad. Pour les personnes à mobilité réduite je peux intervenir à domicile sur Chartres
           et l’agglomération chartraine.</p>
       </div>
@@ -80,7 +81,7 @@
     <div class="row" id="atmosphere">
       <div class="col-7 ml-5 mt-5 text-white">
         <h1 class="margin-responsive">Atmosphère</h1>
-        <p class="margin-responsive p_size margin_bot_ajust text-justify">Et hanc quidem praeter oppida multa duae civitates exornant Seleucia opus Seleuci regis, et Claudiopolis quam deduxit coloniam Claudius Caesar. Isaura enim antehac nimium
+        <p class="margin-responsive p_size margin_bot_ajust text-justify mb-5">Et hanc quidem praeter oppida multa duae civitates exornant Seleucia opus Seleuci regis, et Claudiopolis quam deduxit coloniam Claudius Caesar. Isaura enim antehac nimium
           potens, olim subversa ut rebellatrix interneciva aegre vestigia claritudinis pristinae monstrat admodum pauca.</p>
       </div>
     </div>
@@ -117,11 +118,39 @@
         <p class="p_size text-center">Groupe sur devis. Le tarif indiqué s'entend par personne pour une heure. Un groupe comprend à minima 3 personneset au maximum 10 personnes.</p>
         <h1 class="font-weight-bold text-center">7€ à 12€</h1>
       </div>
-      <p class="mx-auto text-center font-weight-bold text-white p_size pt-5">Certaines Mutuelles prennent en charge en partie ou en totalité la consultations de Sophrologie, renseignez-vous auprès de votre assureur.</p>
-      <p class="mx-auto text-center text-white">Les techniques utilisées en sophrologie ne se substituent en aucun cas à un suivi médical. Toute consultation non-annulée au minimum 48h à l'avance est due.</p>
-      <button type="button" class="btn btn-secondary mx-auto" data-container="body" data-toggle="popover" data-placement="top" data-content="Article 19 de la Loi N° 2004-575 du 21 juin 2004 pour la confiance dans l économie numérique Sans préjudice des autres obligations d'information prévues par les textes législatifs et réglementaires en vigueur, toute personne qui exerce l'activité définie à l'article 14 est tenue d'assurer à ceux à qui est destinée la fourniture de biens ou la prestation de services un accès facile, direct et permanent utilisant un standard ouvert aux informations suivantes : S'il s'agit d'une personne physique, ses nom et prénoms et, s'il s'agit d'une personne morale, sa raison sociale. L'adresse où elle est établie, son adresse de courrier électronique, ainsi que des coordonnées téléphoniques permettant d'entrer effectivement en contact avec elle. Si elle est assujettie aux formalités d'inscription au registre du commerce et des sociétés ou au répertoire des métiers, le numéro de son inscription, son capital social et l'adresse de son siège social : RCS Chartres: 820 914 752. SIRET : 820 914 752 00028.">
-        Mentions légales
-      </button>
+      <section class="mx-auto">
+        <div class="text-center">
+          <p class="font-weight-bold text-white p_size pt-5">Certaines Mutuelles prennent en charge en partie ou en totalité la consultations de Sophrologie, renseignez-vous auprès de votre assureur.</p>
+          <p class="text-white">Les techniques utilisées en sophrologie ne se substituent en aucun cas à un suivi médical. Toute consultation non-annulée au minimum 48h à l'avance est due.</p>
+        </div>
+        <div class="text-center mb-4">
+          <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#mentions_legales">Mentions Légales</button>
+        </div>
+      </section>
+
+      <div class="modal fade" id="mentions_legales" tabindex="-1" role="dialog" aria-labelledby="mentions_legales" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Mentions Légales</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h1>Article 19 de la Loi N° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique</h1>
+              <p class="text-justify">Sans préjudice des autres obligations d'information prévues par les textes législatifs et réglementaires en vigueur, toute personne qui exerce l'activité définie à l'article 14 est tenue d'assurer à ceux à qui
+                est destinée la
+                fourniture de biens ou la prestation de services un accès facile, direct et permanent utilisant un standard ouvert aux informations suivantes :</p>
+              <p class="text-justify">1. S'il s'agit d'une personne physique, ses nom et prénoms et, s'il s'agit d'une personne morale, sa raison sociale.</p>
+              <p class="text-justify">2. L'adresse où elle est établie, son adresse de courrier électronique, ainsi que des coordonnées téléphoniques permettant d'entrer effectivement en contact avec elle.</p>
+              <p class="text-justify">3. Si elle est assujettie aux formalités d'inscription au registre du commerce et des sociétés ou au répertoire des métiers, le numéro de son inscription, son capital social et l'adresse de son siège social : RCS
+                Chartres: 820 914
+                752. SIRET : 820 914 752 00028.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 

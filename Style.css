@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Playfair Display', serif !important;
   position: relative;
@@ -39,7 +43,6 @@ a:hover {
 
 .photo_sophro {
   width:23em;
-  margin-right: -50px !important;
 }
 
 .p_size {
@@ -99,7 +102,7 @@ a:hover {
     line-height: 120%;
   }
   .photo_sophro {
-    width: 150% !important;
+    width: 27em !important;
     margin-right: auto;
   }
 }
