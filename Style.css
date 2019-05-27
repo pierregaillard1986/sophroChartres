@@ -18,6 +18,12 @@ a {
   transition: 0.4s;
 }
 
+strong  {
+  font-size: normal;
+  text-decoration: none;
+  font-weight: normal !important;
+}
+
 a:hover {
   background-color: #e2e2e2;
 }
@@ -37,24 +43,31 @@ a:hover {
   color: black !important;
 }
 
-.navabar_margin_top {
-  margin-top: -8px !important;
+.coherence_cardiaque_word_spacing {
+  word-spacing: -3.5px;
 }
 
-.photo_sophro {
-  width:23em;
+.navabar_margin_top {
+  margin-top: -8px !important;
 }
 
 .p_size {
   font-size: 150%;
 }
 
-.p_size_contact {
-  font-size: 170%;
+.p_size_horaires{
+  font-size: 180%;
+  margin-top:-2% ;
 }
 
-.max_width {
-  max-width: 40%;
+.p_size_margin_contact {
+  font-size: 180%;
+  margin-bottom: -1%;
+  margin-top: 2%;
+}
+
+.button_size {
+  font-size: 150%;
 }
 
 #accueil{
@@ -72,37 +85,18 @@ a:hover {
 #coherence_cardiaque {
   background: url(coherence_cardiaque.jpg);
   background-size: cover;
-  background-position: bottom;
-}
-
-#atmosphere {
-  background: url(atmosphere.jpg);
-  background-attachment: fixed;
-  background-size: cover;
+  background-position: center;
 }
 
 #contact {
-  background: url(image_thierry.jpg);
+  background: url(cabinet.jpg);
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #tarifs {
   background: url(foret.jpg);
   background-size: cover;
-  background-attachment: fixed;
   background-position: bottom;
-}
-
-@media only screen and (max-width: 600px)  {
-  .margin-responsive {
-    margin-left: -50px;
-    margin-right: -110px;
-    margin-bottom: 20%;
-    line-height: 120%;
-  }
-  .photo_sophro {
-    width: 27em !important;
-    margin-right: auto;
-  }
 }
